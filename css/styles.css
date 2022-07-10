@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 16px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px 200px;
+    gap: 36px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+}
+
+.placeholder {
+    width: 1000px;
+    background-color: #707579;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 20px;
+    margin: 24px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    margin-bottom: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    gap: 8px;
+}
+
+.box {
+    border-color: #3882F6;
+    width: 170px;
+    height: 170px;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 6px;
+}
+
+.text {
+    font-size: 18px;
+    color: #4b4d50;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+.name {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 4px 20px;
+    border-style: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
